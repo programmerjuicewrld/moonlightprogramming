@@ -1,116 +1,308 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-* {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-body {
-    background-color: #330d3e;
-}
-header {
-    display: flex;
-    background-color: white;
-    transition: 0.8s;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-header:hover {
-  box-shadow: 0 0 28px 0 rgb(51, 51, 51);
-  
-}
-.logopart{
-    display: flex;
-    padding-left: 38px;
-  }
-.logo{
-    width: 85px;
-    height: 85px;
-    border-radius: 100%;
-}
-.slogen {
-    padding: 15px;
-    font-size: 20px;
-    color: #330d3e;
-    padding-top: 30px;
-}
-li{
-    padding: 20px;
-    margin-left: auto;
-    float: left;
-    font-size: 20px;
-    list-style-type: none;
-    padding-top: 30px;
-}
-.a {
-    text-decoration: none;
-    color: #330d3e;
-    font-weight: bold;
-    transition: 0.5s ease-in;
-
-}
-.a[href*="#"] {
-    border-bottom: 5px solid #330d3e;
-}
-.a:hover {
-    border-bottom: 5px solid #330d3e;
-}
+@media all and (min-width: 711px) {
     
-.nav {
-    margin-left: auto;
-    padding-right: 100px;
-}
-.container {
-    padding: 90px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.card-1 {
-    background-color: white;
-    border-radius: 10px;
-    width: 350px;
-    height: 450px;
-    padding: 10px;
-}
-
-.card-2 {
-    background-color: white;
-    border-radius: 10px;
-    width: 350px;
-    height: 450px;
-    padding: 10px;
-}
-.card-3 {
-    background-color: white;
-    border-radius: 10px;
-    width: 350px;
-    height: 4750x;
-    padding-left: 30px;
-}
-svg {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    width: 300px;
-    height: 400px;
-}
-svg:hover {
-    animation: wheel 1.5s ease-in-out;
-}
-@keyframes wheel {
-    from {
-        transform: rotateZ(0deg);
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    * {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
     }
-    to {
-        transform: rotateZ(360deg);
+    body {
+        background-color: #330d3e;
+    }
+    header {
+        display: flex;
+        background-color: white;
+        transition: 0.8s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header:hover {
+        box-shadow: 0 0 28px 0 rgb(51, 51, 51);
+        
+    }
+    .logopart{
+        display: flex;
+        padding-left: 38px;
+    }
+    .logo{
+        width: 85px;
+        height: 85px;
+        border-radius: 100%;
+    }
+    .slogen {
+        padding: 15px;
+        font-size: 20px;
+        color: #330d3e;
+        padding-top: 30px;
+    }
+    li{
+        padding: 20px;
+        margin-left: auto;
+        float: left;
+        font-size: 20px;
+        list-style-type: none;
+        padding-top: 30px;
+    }
+    .a {
+        text-decoration: none;
+        color: #330d3e;
+        font-weight: bold;
+        transition: 0.5s ease-in;
+        
+    }
+    .a[href*="#"] {
+        border-bottom: 5px solid #330d3e;
+    }
+    .a:hover {
+        border-bottom: 5px solid #330d3e;
+    }
+    
+    .nav {
+        margin-left: auto;
+        padding-right: 100px;
+    }
+    .container {
+        padding: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .card-1 {
+        background-color: white;
+        border-radius: 10px;
+        width: 350px;
+        height: 450px;
+        padding: 10px;
+    }
+    
+    .card-2 {
+        background-color: white;
+        border-radius: 10px;
+        width: 350px;
+        height: 450px;
+        padding: 10px;
+    }
+    .card-3 {
+        background-color: white;
+        border-radius: 10px;
+        width: 350px;
+        height: 470px;
+        padding-left: 30px;
+    }
+    svg {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        width: 300px;
+        height: 400px;
+    }
+    svg:hover {
+        animation: wheel 1.5s ease-in-out;
+    }
+    @keyframes wheel {
+        from {
+            transform: rotateZ(0deg);
+        }
+        to {
+            transform: rotateZ(360deg);
+        }
+    }
+    #channel {
+        color: white;
+        opacity: 0.7;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    @media all and (max-width: 1320px) {
+        .card-1 {
+            width: 250px;
+            height: 350px;
+        }
+        
+        .card-2 {
+            width: 250px;
+            height: 350px;
+        }
+        .card-3 {
+            width: 250px;
+            height: 350px;
+        }
+        svg {
+            width: 200px;
+            height: 300px;
+        }
+    }
+    @media all and (max-width: 1040px) {
+        .card-1 {
+            width: 200px;
+            height: 230px;
+        }
+        
+        .card-2 {
+            width: 200px;
+            height: 230px;
+        }
+        .card-3 {
+            width: 200px;
+            height: 250px;
+        }
+        svg {
+            width: 100px;
+            height: 200px;
+        }
+    }
+    @media all and (max-width: 855px) {
+        .card-1 {
+            width: 150px;
+            height: 230px;
+        }
+        
+        .card-2 {
+            width: 150px;
+            height: 230px;
+        }
+        .card-3 {
+            width: 150px;
+            height: 250px;
+        }
+        svg {
+            width: 100px;
+            height: 200px;
+        }
     }
 }
-#channel {
-    color: white;
-    opacity: 0.7;
-    text-decoration: none;
-    text-align: center;
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
+@media all and (max-width: 710px) {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    * {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+    }
+    body {
+            background-color: #330d3e;
+        }
+    header {
+            display: flex;
+            background-color: white;
+            transition: 0.8s;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    header:hover {
+            box-shadow: 0 0 14px 0 rgb(51, 51, 51);
+            
+        }
+        .logopart{
+            display: flex;
+            padding-left: 19px;
+        }
+        .logo{
+            width: 42.5px;
+            height: 42.5px;
+            border-radius: 100%;
+        }
+        .slogen {
+            padding: 7.5px;
+            font-size: 10px;
+            color: #330d3e;
+            padding-top: 15px;
+        }
+        li{
+            padding: 10px;
+            margin-left: auto;
+            float: left;
+            font-size: 10px;
+            list-style-type: none;
+            padding-top: 15px;
+        }
+        .a {
+            text-decoration: none;
+            color: #330d3e;
+            font-weight: bold;
+            transition: 0.5s ease-in;
+            
+        }
+        .a[href*="#"] {
+            border-bottom: 2.5px solid #330d3e;
+        }
+        .a:hover {
+            border-bottom: 2.5px solid #330d3e;
+        }
+        
+        .nav {
+            margin-left: auto;
+            padding-right: 50px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .card-1 {
+            background-color: white;
+            border-radius: 10px;
+            width: 200px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+        
+        .card-2 {
+            background-color: white;
+            border-radius: 10px;
+            width: 200px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+        .card-3 {
+            background-color: white;
+            border-radius: 10px;
+            width: 200px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+        svg {
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+            width: 80px;
+            height: 150px;
+        }
+        svg:hover {
+            animation: wheel 1.5s ease-in-out;
+        }
+        @keyframes wheel {
+            from {
+                transform: rotateZ(0deg);
+            }
+            to {
+                transform: rotateZ(360deg);
+            }
+        }
+        #channel {
+            color: white;
+            opacity: 0.7;
+            text-decoration: none;
+            text-align: center;
+            margin-bottom: 7.5px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+@media all and (max-width: 343) {
+ header {
+     display: none;
+ }
 }
