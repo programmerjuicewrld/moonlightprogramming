@@ -7,6 +7,9 @@
 body {
     background-color: #330d3e;
 }
+a {
+   text-decoration: none;
+}
 header {
     display: flex;
     background-color: white;
